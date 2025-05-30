@@ -44,6 +44,7 @@ export default function LoggedIn() {
             <div className="button-group">
               <button
                 className="btn btn-primary"
+                onClick={() => window.open('https://platform.abdelrahmanzaki.com', '_blank')}
               >
                 Switch to Platform
               </button>
